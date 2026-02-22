@@ -1,5 +1,7 @@
 sudo apt install gnome-shell-extensions gnome-shell-extension-desktop-icons-ng gnome-shell-extension-dash-to-panel
 
+https://github.com/fthx/dock-from-dash
+
 # gnome-shell-extension-dashtodock
 # gnome-tweaks 
 # gnome-shell-extension-appindicator gnome-shell-extension-system-monitor gnome-package-updater gnome-packagekit
