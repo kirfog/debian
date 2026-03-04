@@ -1,4 +1,4 @@
-sudo apt install gnome-shell-extensions gnome-shell-extension-desktop-icons-ng gnome-shell-extension-dash-to-panel
+sudo apt install gnome-shell-extensions gnome-shell-extension-desktop-icons-ng gnome-shell-extension-dash-to-panel gnome-shell-extension-tiling-assistant 
 
 https://github.com/fthx/dock-from-dash
 
