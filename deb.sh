@@ -17,3 +17,13 @@ cat << EOF | tee $HOME/.config/gtk-3.0/settings.ini > $HOME/.config/gtk-4.0/sett
 [Settings]
 gtk-application-prefer-dark-theme=1
 EOF
+
+export PS1="\[\033[32m\]\t \[\033[34m\]\w\[\033[33m\]\$(GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWDIRTYSTATE=1 __git_ps1) \[\033[31m\]> \[\033[00m\]"
+
+HISTSIZE=1000000
+HISTFILESIZE=2000000
+
+HISTTIMEFORMAT="%Y.%m.%d %H:%M:%S "
+PROMPT_COMMAND="history -a"
+
+alias nvim='/opt/nvim-linux-x86_64/bin/nvim'
